@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import './Form.css';
-import { TodoAdd } from '../redux/action/todoActions';
+import { TodoAdd } from '../../redux/action/todoActions';
 const Form = () => {
   const dispatch = useDispatch();
   const [title, setTitle] = useState('');

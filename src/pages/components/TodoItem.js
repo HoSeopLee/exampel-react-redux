@@ -1,7 +1,7 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
 import './TodoItem.css';
-import { TodoDelete, TodoStateEdit } from '../redux/action/todoActions';
+import { TodoDelete, TodoStateEdit } from '../../redux/action/todoActions';
 const TodoItem = ({ text, checked, id }) => {
   const dispatch = useDispatch();
 

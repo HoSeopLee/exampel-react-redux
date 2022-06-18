@@ -1,5 +1,5 @@
 import React from 'react';
-import { TodoListTemplate } from '../components';
+import { TodoListTemplate } from './components';
 const MainPresenter = () => {
   return <TodoListTemplate />;
 };
